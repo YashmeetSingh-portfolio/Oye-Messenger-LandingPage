@@ -143,28 +143,24 @@ const FAQSection: React.FC = () => {
       question: 'Is Oye Messenger free to use?',
       answer: 'Yes, Oye Messenger is completely free to download and use. All basic features including messaging, voice calls, and video calls are available at no cost. We may offer premium features in the future, but the core functionality will always remain free.',
     },
+   
     {
       id: 2,
-      question: 'How secure is Oye Messenger?',
-      answer: 'Oye Messenger uses end-to-end encryption for all messages and calls, ensuring that only you and the person you\'re communicating with can read or hear what is sent. We do not store your messages on our servers once they\'ve been delivered, and we have strict data protection policies in place.',
-    },
-    {
-      id: 3,
       question: 'Can I use Oye Messenger on multiple devices?',
       answer: 'Currently, Oye Messenger supports one mobile device per account. We are working on multi-device support which will be available in a future update, allowing you to seamlessly use the app across your phone, tablet, and computer.',
     },
     {
-      id: 4,
+      id: 3,
       question: 'How do I add contacts in Oye Messenger?',
       answer: 'You can add contacts in several ways: by searching for their username, scanning their QR code, or by syncing your phone contacts (with permission). Once you find someone, simply send them a contact request which they can accept or decline.',
     },
     {
-      id: 5,
+      id: 4,
       question: 'What happens if I lose my phone or get a new one?',
       answer: 'If you lose your phone or get a new one, you can easily restore your account by verifying your phone number and entering the verification code sent to you. Your profile information will be restored, though message history may not be available unless you\'ve enabled cloud backup.',
     },
     {
-      id: 6,
+      id: 5,
       question: 'Does Oye Messenger work internationally?',
       answer: 'Yes, Oye Messenger works globally as long as you have an internet connection. There are no additional charges for international messaging or calling through the app, though your standard data rates from your carrier may apply.',
     },
