@@ -140,7 +140,7 @@ const FeaturesSection: React.FC = () => {
     {
       icon: renderIcon(FiLock),
       title: 'Secure Messaging',
-      description: 'End-to-end encryption ensures your conversations remain private and secure at all times.',
+      description: 'Oye Messenger ensures your conversations remain private and secure at all times.',
     },
     {
       icon: renderIcon(FiImage),
