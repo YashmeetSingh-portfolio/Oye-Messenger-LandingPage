@@ -182,7 +182,7 @@ const HeroSection: React.FC = () => {
                 <HighlightText>Chat, video call, and share</HighlightText> moments 
                 with a modern messaging app designed for everyone.
               </HeroParagraph>
-              <DownloadButton as="a" href="/oye-messenger.apk" download>
+              <DownloadButton as="a" href="https://github.com/YashmeetSingh-portfolio/Oye-Messenger/releases/download/Oye.V1/Oye.apk" download>
                 <DownloadIcon>
                   {renderIcon(FiDownload)}
                 </DownloadIcon>
