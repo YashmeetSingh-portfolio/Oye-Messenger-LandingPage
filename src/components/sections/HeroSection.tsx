@@ -13,7 +13,7 @@ import {
 } from '../layout/CommonComponents';
 import { renderIcon } from '../../utils/iconUtils';
 import { ThemeType } from '../../styles/theme';
-import appScreenshot from '../../assets/images/app-screenshot.png';
+import appScreenshot from '../../assets/images/Home.png';
 
 const HeroWrapper = styled.section`
   padding: 160px 0 80px;
