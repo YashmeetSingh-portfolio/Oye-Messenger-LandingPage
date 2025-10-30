@@ -19,7 +19,7 @@ function App() {
       <main>
         <HeroSection />
         <FeaturesSection />
-        <TestimonialsSection />
+        
         <FAQSection />
       </main>
       <Footer />
