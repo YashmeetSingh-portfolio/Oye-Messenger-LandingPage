@@ -188,13 +188,7 @@ const Header: React.FC = () => {
               >
                 Features
               </NavLink>
-              <NavLink
-                href="#testimonials"
-                isActive={activeLink === 'testimonials'}
-                onClick={() => handleLinkClick('testimonials')}
-              >
-                Testimonials
-              </NavLink>
+              
               <NavLink
                 href="#faq"
                 isActive={activeLink === 'faq'}
@@ -232,13 +226,7 @@ const Header: React.FC = () => {
         >
           Features
         </MobileNavLink>
-        <MobileNavLink
-          href="#testimonials"
-          isActive={activeLink === 'testimonials'}
-          onClick={() => handleLinkClick('testimonials')}
-        >
-          Testimonials
-        </MobileNavLink>
+        
         <MobileNavLink
           href="#faq"
           isActive={activeLink === 'faq'}
@@ -246,7 +234,7 @@ const Header: React.FC = () => {
         >
           FAQ
         </MobileNavLink>
-        <Button variant="primary" as="a" href={`https://github.com/YashmeetSingh-portfolio/Oye-Messenger/releases/download/Oye.V1/Oye.apk`} download>Download Now</Button>
+        <Button variant="primary" as="a" href={`${process.env.PUBLIC_URL}/Oye.apk`} download>Download Now</Button>
       </MobileMenu>
     </>
   );
