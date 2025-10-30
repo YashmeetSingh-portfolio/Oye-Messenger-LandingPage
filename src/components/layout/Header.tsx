@@ -202,7 +202,7 @@ const Header: React.FC = () => {
               >
                 FAQ
               </NavLink>
-              <Button variant="primary">Download Now</Button>
+              <Button variant="primary" as="a" href={`https://github.com/YashmeetSingh-portfolio/Oye-Messenger/releases/download/Oye.V1/Oye.apk`} download>Download Now</Button>
             </Nav>
             <MobileMenuButton onClick={toggleMenu}>
               {renderIcon(FiMenu, { size: 24 })}
@@ -246,7 +246,7 @@ const Header: React.FC = () => {
         >
           FAQ
         </MobileNavLink>
-        <Button variant="primary">Download Now</Button>
+        <Button variant="primary" as="a" href={`https://github.com/YashmeetSingh-portfolio/Oye-Messenger/releases/download/Oye.V1/Oye.apk`} download>Download Now</Button>
       </MobileMenu>
     </>
   );
