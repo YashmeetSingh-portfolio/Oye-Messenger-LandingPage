@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Oye Messenger",
+  "name": "Oye Messenger - Connect with Friends",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,7 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#4F46E5",
+  "background_color": "#ffffff",
+  "description": "A modern messaging app for connecting with friends and family through chat and video calls."
 }

@@ -1,0 +1,11 @@
+<svg width="120" height="40" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Chat bubble icon -->
+  <rect x="5" y="5" width="30" height="30" rx="15" fill="#4F46E5"/>
+  <path d="M15 15 L25 15 L25 20 L20 20 L15 25 L15 15Z" fill="white"/>
+  
+  <!-- Text: Oye -->
+  <path d="M45 12 C45 12, 50 5, 55 12 C60 19, 60 29, 55 32 C50 35, 45 28, 45 20 Z" fill="#4F46E5"/>
+  <path d="M65 12 L65 32 L75 32 L75 25 L70 25 L70 20 L75 20 L75 12 Z" fill="#4F46E5"/>
+  <path d="M80 12 L90 12 L90 32 L85 32 L85 17 L80 17 Z" fill="#4F46E5"/>
+  <path d="M95 12 L115 12 L115 17 L105 17 L105 20 L115 20 L115 25 L105 25 L105 27 L115 27 L115 32 L95 32 Z" fill="#4F46E5"/>
+</svg>
